@@ -1,0 +1,23 @@
+#foodItems{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    grid: gap 10px;
+}
+.foodItem{
+    border: 2px solid rgb(49, 175, 45);
+    border-radius: 20px;
+    padding: 0px;
+    margin: 20px;
+    text-align: center;
+    background-color: rgb(176, 207, 144);
+   
+}
+.foodItem img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+#foodDetails img{
+    width: 400px;
+}
+
